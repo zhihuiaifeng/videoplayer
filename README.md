@@ -57,7 +57,7 @@
 2. **登录**
 ![登录](img/登录.PNG)
 
-3. **注册**
+3. **注册**  
 ![注册](img/注册.PNG)
 
 4. **用户登录后的个人管理中心页面**
@@ -87,21 +87,22 @@
     没啥问题，放到360浏览器排版就有一些变化，轮播图和下面的视频展示区域都变窄了，在google浏览器上
 	有一些特殊字符显示不出来；
   - 在写页面时提前做好自适应的准备
-	   a.比如在头部加入viewport元标签；少使用绝对宽度，使用百分比或者 auto；
-	   b.加载Normalize.css，规范化。每一个浏览器内部默认的内外边距都不一样，最简单和常见的就是*{padding:0;margin:0;}
-	   c.字体用相对大小em，少用px；
-	   d.使用流动布局（fluid grid）；float的好处是，如果宽度太小，放不下两个元素，后面的元素会自动
+   -  a.比如在头部加入viewport元标签；少使用绝对宽度，使用百分比或者 auto；
+   -  b.加载Normalize.css，规范化。每一个浏览器内部默认的内外边距都不一样，最简单和常见的就是*{padding:0;margin:0;}
+   -  c.字体用相对大小em，少用px；
+   -  d.使用流动布局（fluid grid）；float的好处是，如果宽度太小，放不下两个元素，后面的元素会自动
 	          滚动到前面元素的下方，不会在水平方向overflow（溢出），避免了水平滚动条的出现。
-       e.绝对定位（position: absolute）的使用，也要非常小心。
-       f.使用CSS的@media规则，比如
-         @media screen and (max-device-width: 400px) {
-　　　　		.column {
-　　　　　	　float: none;
-　　　　　	　width:auto;
-　　　		}
-　　　		　#sidebar {
-　　　　　　		display:none;
-　　　　		}
-　　		}
-		g.图片自适应（fluid image）,img { max-width: 100%;}，实现图片自动缩放
+   -  e.绝对定位（position: absolute）的使用，也要非常小心。
+   -  * f.使用CSS的@media规则，比如
+   
+		@media screen and (max-device-width: 400px) {
+		.column {
+		float: none;
+		width:auto;
+		}
+		#sidebar {
+		display:none;
+		}
+		}
+   -  g.图片自适应（fluid image）,img { max-width: 100%;}，实现图片自动缩放
 
