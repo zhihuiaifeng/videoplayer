@@ -1,0 +1,66 @@
+.banner{
+	width: 1519px;
+	height: 400px;
+	/* background-color: pink; */
+	margin: 0 auto;   /* 上下 左右 区域居中 */
+	position: relative;  /* 相对定位 给绝对定位元素位置参考 */
+}
+.banner .item{
+	position: absolute;   /* 绝对定位 脱离文档流 */
+	top: 0;
+	left: 0;
+}
+/* 轮播展示的图片 */
+.img-wrap{
+	cursor: pointer;    /* 鼠标放在指定区域显示小手 */
+}
+
+/* 两边的按钮 start*/
+.lr-tab .btn{
+	position: absolute;
+	top: 170px;   /* 按钮距离上边的距离 */
+	width: 41px;
+	height: 69px;
+	background: url(../img/icon-slides.png);
+}
+.lr-tab .left{   /* 左边按钮在左边 */
+	left: 190px;
+	background-position-x: -83px;  /* 可改变左边箭头原地移动  有灰色变浅色*/
+}
+.lr-tab .right{   /* 右边按钮在右边 */
+	right: 210px;
+	background-position-x: -123px;   /* 可改变右边箭头原地移动 */
+}
+.lr-tab .left:hover{
+	background-position-x: 0px;  /* 鼠标滑过左边箭头颜色变灰 */
+}
+.lr-tab .right:hover{    /* 鼠标滑过右边箭头颜色变灰 */
+	background-position-x: -41px;
+}
+/* 两边的按钮 end*/
+
+/* 轮播图下方的多个小圆圈外部方框start */
+.tab-circle{
+	position: absolute;    /* 显示出方框 banner是父亲 */
+	width: 140px;    /* 方框大小 */
+	height: 15px;
+	bottom: 10px;     /* 方框放在底部中间 */
+	left: 680px;
+}
+.tab-circle .btn{  /* 每一个小圆圈 */
+    float: left;
+	margin-top: 3px;
+	margin-left: 7px;   /* 小圆圈与小圆圈的左右间隔 */
+	width: 6px;
+	height: 6px;
+	background: #555b63;
+	border: 1px solid #555B63;  /* 小圆圈的边框 */
+	border-radius: 50%;  /* 边框方块变成圆形 */
+}
+.tab-circle .active{
+	background: #fff;
+}
+.tab-circle .btn:hover{
+	background: #fff;
+	/*border-color: ;   单独设置边框颜色 */
+}
