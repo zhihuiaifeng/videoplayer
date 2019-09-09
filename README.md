@@ -93,7 +93,7 @@
    -  d.使用流动布局（fluid grid）；float的好处是，如果宽度太小，放不下两个元素，后面的元素会自动
 	          滚动到前面元素的下方，不会在水平方向overflow（溢出），避免了水平滚动条的出现。
    -  e.绝对定位（position: absolute）的使用，也要非常小心。
-   -  * f.使用CSS的@media规则，比如
+   -  f.使用CSS的@media规则，比如
    
 		@media screen and (max-device-width: 400px) {
 		.column {
