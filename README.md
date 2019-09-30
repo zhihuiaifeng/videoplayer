@@ -25,13 +25,19 @@
 数据库名称为mybatis，下面有两个表，一个是v_user，另一个是v_video
 
 用户表v_user和视频表v_video
-![用户表](img/v_user.PNG) ![视频表](img/v_video.PNG) 
+
+<img width="550" height="350" src="img/v_user.PNG.PNG"/>
+<img width="550" height="350" src="img/v_video.PNG"/>
+
 
 用户表内容
-![用户表内容](img/v_user内容.PNG)
+
+<img width="550" height="350" src="img/v_user内容.PNG"/>
 
 视频表内容（截了一部分图片）
-![视频表内容](img/v_video内容.PNG)
+
+<img width="550" height="350" src="img/v_video内容.PNG"/>
+
 
 
 
