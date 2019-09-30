@@ -26,19 +26,17 @@
 
 用户表v_user和视频表v_video
 
-<img width="550" height="350" src="img/v_user.PNG.PNG"/>
+<img width="550" height="350" src="img/v_user.PNG"/>
 <img width="550" height="350" src="img/v_video.PNG"/>
 
 
 用户表内容
 
-<img width="550" height="350" src="img/v_user内容.PNG"/>
+<img width="850" height="350" src="img/v_user内容.PNG"/>
 
 视频表内容（截了一部分图片）
 
-<img width="550" height="350" src="img/v_video内容.PNG"/>
-
-
+![视频表内容](img/v_video内容.PNG)
 
 
 ### 运行环境
@@ -58,10 +56,12 @@
 
 ### 页面展示
 1. **首页**
+
 ![首页](img/首页.png)
 
 2. **登录**
-![登录](img/登录.PNG)
+
+<img width="350" height="300" src="img/登录.PNG"/>
 
 3. **注册**  
 ![注册](img/注册.PNG)
