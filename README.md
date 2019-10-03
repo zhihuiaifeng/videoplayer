@@ -2,7 +2,6 @@
 # videoplayer
 仿新片场的微视频网站
 
-参考：https://blog.csdn.net/ITBigGod/article/details/81747046
 
 ### 技术栈
 - **后端**： SSM框架
